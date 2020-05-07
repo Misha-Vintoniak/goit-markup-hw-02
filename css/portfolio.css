@@ -1,0 +1,50 @@
+
+body {
+    background: #FFFFFF;
+    color: #212121;
+}
+.list-services {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+.body {
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+h2 {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    font-family: 'Roboto', sans-serif;
+
+}
+.list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.button {
+    background:  #F5F4FA;
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+}
+.list .button:focus,
+.list .button:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+}
