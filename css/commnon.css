@@ -54,9 +54,6 @@ background: #2F303A;*/
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-
-
-
 }
 .list .link:focus,
 .list .link:hover {
@@ -67,21 +64,32 @@ background: #2F303A;*/
 }
 .site-nav .list{
     font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.site-nav .list{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+.footer {
+    background: #2F303A;
+    color: var(--primary-white-color);
+    display: flex;
 }
+.footer .logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.footer .site-logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:var(--primary-white-color)
 
+}
 .malito {
     background-image: url(../img/mail.svg);
     background-repeat: no-repeat;
@@ -92,4 +100,48 @@ background: #2F303A;*/
 }
 .text {
     color: var(--primary-text-color);
+}
+.position {
+    text-align: center;
+}
+address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.address {
+
+    color: rgba(255, 255, 255, 0.6);
+    list-style: none;
+}
+.footer .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.button {
+    background:  #F5F4FA;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+    }
+.footer .button:focus,
+.footer .button:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.customer {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 2.0;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.4);
 }

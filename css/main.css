@@ -1,8 +1,9 @@
 
 body {
     background: #ffffffFF;
-    color: #212121;
+    color: var(--secondary-text-color);
     margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
 }
 .page-header {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -21,6 +22,64 @@ background-image: url(../img/facebook.svg);
 .linkedin {
 background-image: url(../img/linkedin.svg);
 }
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+.position .button:focus,
+.position .button:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #E5E5E5;
+}
+h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
+}
+.shadow {
+    color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
+
+}
+.list .size {
+   font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    }
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.other {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 

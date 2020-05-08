@@ -1,16 +1,19 @@
 
 body {
     background: #FFFFFF;
-    color: #212121;
+    color: var(--secondary-text-color);
 }
-.list-services {
+.komtent-portfolio {
     display: flex;
     flex-flow: row wrap;
+}
+.list-services {
     list-style: none;
+    text-decoration: none;
 }
 .body {
     font-family: 'Roboto', sans-serif;
-    color: #757575;
+    color: #212121;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -31,13 +34,12 @@ h2 {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-text-color);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
 .button {
     background:  #F5F4FA;
-    font-style: 400;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
