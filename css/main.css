@@ -12,6 +12,7 @@ body {
 .instagram {
     background-image: url(../img/instagram.svg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 .twitter {
     background-image: url(../img/twitter.png);
