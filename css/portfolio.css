@@ -2,48 +2,41 @@
 body {
     background: #FFFFFF;
     color: var(--secondary-text-color);
-}
-.komtent-portfolio {
-    display: flex;
-    flex-flow: row wrap;
-}
-.list-services {
-    list-style: none;
-    text-decoration: none;
-}
-.body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
+.list-services {
+    list-style: none;
+    text-decoration: none;
+
+}
 h2 {
-    color: #212121;
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
-    font-family: 'Roboto', sans-serif;
-
+}
+.kontent-text {
+    font-size: 18px;
+    line-height: 1.6;
 }
 .list-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
-    letter-spacing: 0.03em;
+
     color: var(--primary-text-color);
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+
 }
 .button {
     background:  #F5F4FA;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
 }
 .list .button:focus,
 .list .button:hover {
