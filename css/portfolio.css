@@ -24,7 +24,7 @@ h2 {
     font-size: 18px;
     line-height: 1.6;
     color: var(--primary-white-color);
-    background-color: var(--accent-color);
+    background: rgba(33, 150, 243, 0.9);
 
 }
 .list-text {
