@@ -20,9 +20,12 @@ h2 {
     line-height: 2.0;
     letter-spacing: 0.06em;
 }
-.kontent-text {
+.list-services .kontent {
     font-size: 18px;
     line-height: 1.6;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+
 }
 .list-text {
     font-size: 16px;
